@@ -1,0 +1,15 @@
+.verify-email {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  & i {
+    color: var(--green-color);
+    font-size: 80px;
+  }
+  & h1 {
+    color: var(--green-color);
+    margin-bottom: 15px;
+  }
+}

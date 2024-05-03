@@ -1,0 +1,12 @@
+.add-comment-form {
+  margin-top: 2rem;
+  & input[type="text"] {
+    width: 100%;
+    background-color: var(--white-color);
+    color: var(--dark-color);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 1rem;
+  }
+}

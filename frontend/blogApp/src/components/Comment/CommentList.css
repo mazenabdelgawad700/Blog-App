@@ -1,0 +1,38 @@
+.comments-list {
+  margin: 20px 0;
+  & .comments-list-count {
+    border-bottom: 2px solid var(--dark-color);
+    padding-bottom: 0.5rem;
+    text-transform: capitalize;
+  }
+
+  & .comments-list-item {
+    border: 1px solid var(--gray-color);
+    padding: 10px;
+    border-radius: 5px;
+    &:first-of-type {
+      margin-top: 1rem;
+    }
+    &:not(:last-of-type) {
+      margin-bottom: 15px;
+    }
+    & .comments-list-item-user-info {
+      & .comments-list-item-user-info-username a {
+        color: var(--dark-color);
+      }
+      & .comments-list-item-user-info-time {
+        color: var(--pumpkin-color);
+        font-weight: 500;
+      }
+    }
+    & .comments-list-item-text {
+      color: var(--gray-color);
+      margin: 10px 0;
+    }
+    & .comments-list-item-icon-wrapper {
+      & i {
+        cursor: pointer;
+      }
+    }
+  }
+}

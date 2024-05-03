@@ -1,0 +1,40 @@
+.navbar {
+  background-color: var(--blue-color);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 5;
+  & .nav-link {
+    color: var(--main-color);
+    &.active {
+      color: var(--main-color);
+    }
+  }
+  & .navbar-toggler {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    & span i {
+      color: white;
+      font-size: 2rem;
+    }
+  }
+  & .user-info {
+    display: flex;
+    & .user-info-dropdown {
+      background: none;
+      border: none;
+      color: var(--white-color);
+      padding-top: 3px;
+      padding-bottom: 0;
+      &::after {
+        display: none;
+      }
+      & img {
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+      }
+    }
+  }
+}

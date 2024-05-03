@@ -1,0 +1,12 @@
+.posts {
+  & .home-latest-posts {
+    & .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      @media (max-width: 992px) {
+        flex-direction: column;
+      }
+    }
+  }
+}

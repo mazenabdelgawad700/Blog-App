@@ -1,0 +1,40 @@
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register .container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.register form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.register .register-username,
+.register .register-email,
+.register .register-password,
+.register .register-confirm-password {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.register form label {
+  color: var(--gray-color);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.register form input {
+  padding: 5px;
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: var(--white-color);
+}

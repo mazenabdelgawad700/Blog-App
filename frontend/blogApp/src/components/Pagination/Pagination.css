@@ -1,0 +1,23 @@
+.pagination {
+  & .page {
+    height: 40px;
+    width: 40px;
+    border: 1px solid var(--gray-color);
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s;
+    &:not(&.active, &:disabled):hover,
+    &.active {
+      background-color: var(--pumpkin-color);
+      color: var(--white-color);
+      border-color: var(--pumpkin-color);
+    }
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+}

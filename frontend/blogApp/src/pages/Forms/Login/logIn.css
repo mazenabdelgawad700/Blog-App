@@ -1,0 +1,38 @@
+.log-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.log-in .container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.log-in form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.log-in .log-in-email,
+.log-in .log-in-password {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.log-in form label {
+  color: var(--gray-color);
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.log-in form input {
+  padding: 5px;
+  border: 1px solid var(--gray-color);
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: var(--white-color);
+}
